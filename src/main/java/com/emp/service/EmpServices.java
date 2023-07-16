@@ -23,4 +23,8 @@ public class EmpServices  {
 	if(emp.isPresent())
 		return emp.get();
 	return null;}
+	public void deleteEmp(Employee employee) {
+		// TODO Auto-generated method stub
+		repo.delete(employee);
+	}
 }
